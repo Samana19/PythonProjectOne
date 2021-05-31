@@ -1,4 +1,4 @@
-''' This program that takes three numbers and prints its sum'''
+''' This program takes three numbers and prints its sum'''
 num1=int(input("enter first number"))
 num2=int(input("enter second num"))
 num3=int(input("enter third num"))
