@@ -1,10 +1,6 @@
 import random
 number = random.randint(1, 10)
-
-
 number_of_guesses = 0
-
-
 while number_of_guesses < 3:
     guess = int(input())
     number_of_guesses += 1
