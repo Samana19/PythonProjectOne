@@ -5,5 +5,4 @@ def string(str):
     if i % 2 == 0:
       result = result + str[i]
   return result
-
 print(string('abcdef'))
