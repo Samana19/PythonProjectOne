@@ -14,4 +14,4 @@ if unit=="Kgs":
 elif unit=="lbs":
     print(f'Your weight is {pound_to_kg} Kgs')
 else:
-    print('Your input is invalid. Try again')
+    print('Your unit is invalid. Try again')
