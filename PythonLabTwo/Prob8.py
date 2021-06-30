@@ -1,9 +1,8 @@
 '''8. Given a three-digit number. Find the sum of its digits.
 '''
-n=int(input("Enter a number: "))
-sum=0
-while(n>0):
-    digit=n%10
-     summ=sum+digit
-    n=n//10
-print("The total sum of digits is:",)
+num=int(input("Enter a number: "))
+a = num // 100
+b = num // 10 % 10
+c = num % 10
+sum_of_digits=a + b + c
+print(f'Sum of digits is : {sum_of_digits}')
