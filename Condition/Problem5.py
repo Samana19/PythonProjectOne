@@ -1,3 +1,4 @@
+''' game finding a secret number within 3 attempts using while loop'''
 import random
 number = random.randint(1, 10)
 number_of_guesses = 0
